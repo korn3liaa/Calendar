@@ -6,7 +6,7 @@ import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 
 object DatabaseHandler {
-    private val firebaseDatabase by lazy { Firebase.database("https://calendar-759dd-default-rtdb.europe-west1.firebasedatabase.app/") }
+    private val firebaseDatabase by lazy { Firebase.database(" URL to database") }
     val firebaseDatabaseReference = firebaseDatabase.reference
 
     val firebaseAuth by lazy { FirebaseAuth.getInstance() }
